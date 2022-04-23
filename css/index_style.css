@@ -14,17 +14,19 @@ header {
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
     background: darkgreen;
+    box-shadow: 0px 0px 8px 0px;
     border-radius: 25px;
-    max-width: 800 px;
+    max-width: 800px;
     height: 80px;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
     align-content: center;
 
 }
 
 hr {
-    border: 5px black;
+    margin-top: 4px;
+    border: 1px solid gray;
 }
 
 h1{
@@ -40,14 +42,23 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+ul{
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-header{
+    margin-bottom: 0px;
+}
+
 p {
     font-family: "Roboto", sans-serif;
 }
 
 header img {
-    height:250%;
+    max-height:160px;
     grid-column: 2/3;
-    grid-row: 1/3;
+    grid-row: 0/3;
     border-radius: 1em;
     box-shadow: 5px 5px 15px;
 }
@@ -59,8 +70,10 @@ header img {
 footer {
     color: white;
     text-align: center;
+    border-radius: 25px;
     max-width: 800px;
     background: darkgreen;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,1);
     padding: 10px;
 
 }
