@@ -5,42 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Steve Evans">
-  <meta name="description" content="The main hub for all of Steve's WDD 230 Assignments.">
+  <meta name="description" content="The course assignment portal for all of Steve Evans' WDD 230 - Web Frontend Development work.">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/base.css">
   <link rel="icon" href="images/favicon.ico">
-  <script src="scripts/script.js" defer></script>
-  <title>Steve Evans - WDD 230 Assignment Portal </title>
+  <title>Steve Evans - WDD 230 - Web Frontend Development </title>
 </head>
 
 <body>
   <header>
     <h1>Steve Evans</h1>
     <img src = "images/me.png" alt = "Picture of Me">
-</header>
+  </header>
 
-<main>
-  <h2 class="main-header"> WDD 230: Assignment Portal</h2>
-  <hr>
+  <nav>
+    <h3><a href="#">Home</a></h3>
+    <h3><a href="#">Site Plan</a></h3>
+    <h3><a href="#">Chamber</a></h3>
+    <h3><a href="#">BYU-Idaho</a></h3>
+    <h3><a href="#">Scripture</a></h3>
 
-  <ul>
-    <li>Week 01: <a href="#">Title</a> </li>
-    <li>Week 02: <a href="#">Title</a> </li>
-    <li>Week 03: <a href="#">Title</a> </li>
-    <li>Week 04: <a href="#">Title</a> </li>
-    <li>Week 05: <a href="#">Title</a> </li>
-    <li>Week 06: <a href="#">Title</a> </li>
+  </nav>
 
-  </ul>
+  <main>
+    <h2 class="main-header"> WDD 230: Web Frontend Development</h2>
+    <hr>
 
-  <hr>
-</main>
+    <section class="card">
+      <h3>Learning Activities</h3>
+      <ul>
+        <li>01: <a href="lesson01/holygrail.html" target="blank">Holy Layout</a> |
+          <a href="https://codepen.io/estephem/pen/VwRmERa" target="blank">JS Pen</a> </li>
+        <li>02: <a href="#"></a> </li>
+        <li>03: <a href="#"></a> </li>
+        <li>04: <a href="#"></a> </li>
+        <li>05: <a href="#"></a> </li>
+        <li>06: <a href="#"></a> </li>
+        <li>07: <a href="#"></a> </li>
+        <li>08: <a href="#"></a> </li>
+        <li>09: <a href="#"></a> </li>
+        <li>10: <a href="#"></a> </li>
+      </ul>
+    </section>
 
-<footer>
-  <p> <span id= "current-year"></span> | Steve Evans | Idaho | <a href = "https://www.byui.edu/online" target="blank">BYUI Online Learning</a></p>
-  <div id = "last-modified"></div>
-</footer>
+    <section class="card">
+      <h3>Information</h3>
+      <p>Mesa, AZ</p>
+      <p>777°F </p>
+      <p>Page Visits: 34032644253612</p>
+    </section>
+  </main>
 
-<!-- <script src ="scripts/"></script>  -->
+  <footer>
+    <!-- &copy; <span id="currentdate"></span> -->
+    &copy; <span id= "current-year"></span> 
+    <p>Steve Evans</p>
+    <p>Arizona</p>
+    <span id = "last-modified"></span>
+  </footer>
+
+  <script src ="scripts/getdates.js"></script> 
 </body>
 </html>  
