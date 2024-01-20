@@ -1,0 +1,48 @@
+header {
+    min-width: fit-content;
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(0, 100, 0);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    margin: 20px auto;
+    min-width: fit-content;
+    padding: 5px;
+}
+
+main {
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+.card {
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid lightgray;
+    margin-bottom: 1rem;
+    
+}
+
+.card h2 {
+    border-radius: 20px 20px 0px 0px;
+    background: rgb(0, 100, 0);
+    color: white;
+    margin: auto;
+    padding: 1rem;
+}
+
+.card p, img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
