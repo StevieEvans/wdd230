@@ -1,7 +1,5 @@
 body {
-    display: grid;
     margin: 20px auto;
-    width: 50%;
     max-width: 800px;
     min-width: fit-content;
     border: 3px solid black;
@@ -22,25 +20,68 @@ header {
 
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	left: 1rem;
+	top: 2.5rem; 
+}	
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖";
+}
+
 nav {
     font-family: "Roboto", sans-serif;
     text-align: center;
     background: lightgray;
 }
 
-nav a{
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+#scripture::before {
+    content: "📘 ";
+}
+
+/* nav a{
     padding-top: 5px;
     padding-bottom: 5px;
     display: block;
     text-decoration: none;
     font-size: large;
     margin-top: 0px;
-}
-
-hr {
-    margin-top: 4px;
-    border: 1px solid gray;
-}
+} */
 
 h1{
     font-family: 'Ubuntu', sans-serif;
@@ -55,9 +96,9 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-nav ul {
+/* nav ul {
 padding: 0;
-}
+} */
 
 ul{
     font-size: 1.2em;
@@ -102,6 +143,10 @@ header img {
     margin-top: 10px;
 }
 
+iframe {
+    min-width: 100%;
+}
+
 #last-modified{
     color:yellow ;
     margin-bottom: 0;
@@ -124,3 +169,4 @@ footer p{
 footer a{
     color: white;
 }
+
