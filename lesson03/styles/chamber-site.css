@@ -23,10 +23,24 @@ body {
 
  h1 {
     font-weight: 700;
+ }
+
+ p {
+    font-weight: 500;
+ }
+
+ h2 {
+    background-color: #007958;
+    color: #fffffc;   
+ }
+
+ .accents {
+    font-weight: 300;
+ }
+
+header h1 { 
     background-color: #007958;
     color: #fffffc;
- }
-header h1 { 
     margin-bottom: 0;
 }
 
