@@ -1,8 +1,8 @@
 /* 
 Colors
-    Primary: #008C67
+    Primary: #007958
     Secondary: #F05D23
-    Background: #F7F7F2
+    Background: #fffffc
     Typeface: #261C15
     coolors.co link https://coolors.co/008c67-f7f7f2-261c15-f05d23-f79256
 */
@@ -13,4 +13,101 @@ Typography
     Secondary Font(body): Regular weight 400
     Tertiary (accent) Font(nav menu, CTA button: light weight 300
 */
-/* font-family: 'Lato', sans-serif; */
+
+body {
+    background-color: #fffffc;
+    font-family: 'Lato', sans-serif;
+    margin-left: 40px;
+    max-width: 55%;
+}
+
+ h1 {
+    font-weight: 700;
+    background-color: #007958;
+    color: #fffffc;
+ }
+header h1 { 
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+.site-purpose h2 {
+    margin-bottom: 0;
+}
+.site-purpose p {
+    margin-top: 8px;
+}
+
+.scenarios h2{
+    margin-bottom: 0;
+}
+
+.scenarios p {
+    margin-top: 8px;
+}
+
+.color-schema {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: #261C15;
+}
+
+.colors {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color-roles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.primary-color {
+    padding-top: 35px;
+    margin-bottom: 10px;
+    background-color: #007958;
+}
+
+.secondary-color {
+    padding-top: 35px;
+    margin-bottom: 10px;
+    background-color: #ce3d04;
+}
+
+.background-color {
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.typeface-color {
+    padding-top: 35px;
+    margin-bottom: 10px;
+    background-color: #261C15;
+}
+
+.primary-color-role {
+    grid-row: 2;
+}
+
+.secondary-color-role {
+    grid-row: 3;
+}
+
+.background-color-role {
+    grid-row: 4
+}
+
+.typography-color-role {
+    grid-row: 5;
+}
+
+.mobile-wireframe {
+    width: 400px;
+    height: auto;
+}
