@@ -121,6 +121,11 @@ header p {
     grid-row: 5;
 }
 
+#typography-header {
+    background-color: #007958;
+    color: #fffffc; 
+}
+
 .mobile-wireframe {
     width: 400px;
     height: auto;
