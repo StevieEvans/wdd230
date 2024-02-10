@@ -1,0 +1,196 @@
+/* 
+Colors
+    Primary: #007958
+    Secondary: #F05D23
+    Background: #fffffc
+    Typeface: #261C15
+    coolors.co link https://coolors.co/008c67-f7f7f2-261c15-f05d23-f79256
+*/
+/* 
+Typography
+
+    Primary Font(headings, logos): Bold weight 700
+    Secondary Font(body): Regular weight 400
+    Tertiary (accent) Font(nav menu, CTA button: light weight 300
+*/
+
+/* The switch - the box around the slider */
+.switch p{
+    position: absolute;
+    top: 2px;
+    right: 4rem;
+  }
+.switch {
+    position: absolute;
+    right: 10px;;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+body {
+    margin: 2px auto;
+    background-color: #F7F7F2;
+    /* max-width: 1000px; */
+    /* border: 3px solid black; */
+    padding: 5px;
+}
+
+.logo {
+    padding-top: 10px;
+    /* padding-left: 10px; */
+}
+
+header h1 {
+    display: inline-block;
+    /* vertical-align:baseline; */
+}
+
+.socials {
+    height: 2.5rem;
+    width: auto;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+    width: 100%;
+    text-align: left;
+ 	/* position: absolute;
+	left: 1rem;
+	top: 2.5rem;  */
+}	
+
+#menu::before {
+    margin-left: .5rem;
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.hero img {
+    width: 100%;
+    max-height:500px;
+    object-fit: none;
+    position: relative;
+}
+
+.card {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid darkgray;
+
+}
+
+footer{ 
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+
+.footer-logo {
+    padding: 10px 10px 10px 20px ; 
+    float: left;
+}
+
+.footer-title p{
+    margin-top: 0;
+}
+.footer-title h3 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.copyright {
+    border-top: 1px solid darkgrey;
+    margin-top: 28px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.copyright h3, p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
