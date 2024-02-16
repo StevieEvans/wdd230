@@ -38,7 +38,16 @@
 
     <main>
         <div class="hero">
-            <img  src="https://www.cityofbg.org/ImageRepository/Document?documentID=4955" alt="City of Battle Ground">
+            <picture>
+                <!-- https://www.cityofbg.org/ImageRepository/Document?documentID=4955 -->
+                <img  src="images/battleground-hero.webp" alt="City of Battle Ground"
+                srcset="
+                images/battleground-hero.webp 400w,
+                images/battleground-hero.webp 800w,
+                images/battleground-hero.webp 1600w,
+                images/battleground-hero.webp 2600w"
+                />
+            </picture>
             <h1>Join Us</h1>
         </div>
 
