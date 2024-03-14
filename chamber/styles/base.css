@@ -94,10 +94,14 @@ body {
     padding-top: 10px;
     /* padding-left: 10px; */
 }
-
+header {
+  margin-bottom: 0.5rem;
+}
 header h1 {
-    display: inline-block;
-    /* vertical-align:baseline; */
+  display: block;
+  /* vertical-align:baseline; */
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 .socials {
@@ -158,6 +162,10 @@ header h1 {
     object-fit:none;
     position: relative;
 }
+
+/* .weather-card p{
+  display: inline-block;
+} */
 
 .card {
     padding-bottom: 1rem;
