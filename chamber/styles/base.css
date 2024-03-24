@@ -85,21 +85,18 @@ Typography
 body {
     margin: 2px auto;
     background-color: #F7F7F2;
-    /* max-width: 1000px; */
-    /* border: 3px solid black; */
+    font-family: 'Lato', sans-serif;
     padding: 5px;
 }
 
 .logo {
     padding-top: 10px;
-    /* padding-left: 10px; */
 }
 header {
   margin-bottom: 0.5rem;
 }
 header h1 {
   display: block;
-  /* vertical-align:baseline; */
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
@@ -115,11 +112,8 @@ header h1 {
 	padding: 3px 7px 6px;
 	background-color: #eee;
 	color: #000;
-    width: 100%;
-    text-align: left;
- 	/* position: absolute;
-	left: 1rem;
-	top: 2.5rem;  */
+  width: 100%;
+  text-align: left;
 }	
 
 #menu::before {
@@ -162,10 +156,6 @@ header h1 {
     object-fit:none;
     position: relative;
 }
-
-/* .weather-card p{
-  display: inline-block;
-} */
 
 .card {
     padding-bottom: 1rem;
@@ -212,4 +202,78 @@ footer{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.join-us {
+  text-align: center;
+}
+
+.joinform fieldset {
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: .5rem 2%;
+}
+
+.joinform legend {
+  color: #008c67;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 .5rem;
+}
+
+.joinform label {
+  display: block;
+  padding-top: 1rem;
+  color: #261c15;
+}
+
+.joinform input[type="text"],
+.joinform input[type="tel"],
+.joinform input[type="email"],
+.joinform input[type="number"],
+.joinform textarea 
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.joinform input[type="radio"],
+.joinform input[type="checkbox"] 
+{
+    margin-right: 6px;
+}
+
+.joinform input[type="submit"] {
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #F05D23;
+    color:#fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 0;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.joinform input:required {
+    border: solid 1px red;
+}
+
+#label-description {
+  padding-top: 0;
+
+}
+
+.joinform input:required:valid {
+  border: solid 1px #999;
 }
