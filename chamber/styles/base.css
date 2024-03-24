@@ -117,7 +117,7 @@ header h1 {
 }	
 
 #menu::before {
-    margin-left: .5rem;
+  margin-left: .5rem;
 	content: "☰";
 }
 
@@ -129,7 +129,8 @@ header h1 {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: #333;
+	background-color: #008C67;
+  ;
 	color: #fff;
 }
 
