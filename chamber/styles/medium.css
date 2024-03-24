@@ -19,5 +19,26 @@
         vertical-align:baseline;
         /* margin-left: 1rem; */
     }
+
+    .discover-aside div {
+        border: 2px solid slategray;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .discover-main {
+        display:grid;
+        margin-left:1rem;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .discover-pics img{
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 50%;
+        display: block;
+    }
+    .discover-pics img:hover {box-shadow: 0 0 50px #F05D23;}
     
+
 }

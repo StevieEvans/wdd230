@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Steve Evans - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.cityofbg.org/ImageRepository/Document?documentID=4955">
+    <meta property="og:url" content="https://stevieevans.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <title>Chamber of Battle Ground</title>
+</head>
+<body>
+    <header>
+        <label class="switch">
+            <p>Darkmode</p>
+            <input id="mode" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <img class="logo" src="images/logo.svg" alt="Chamber of Commerce Logo">
+        <h1>Battle Ground Chamber</h1>
+        <div class="socials">
+        <a href="https://www.instagram.com/" target="_blank"><img class="socials" src="images/instagram-logo.svg" alt="Instagram Logo"></a>
+        <a href="https://https://www.facebook.com//" target="_blank"><img class="socials" src="images/facebook-logo.svg" alt="Instagram Logo"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="socials" src="images/linkedin-logo.svg" alt="Instagram Logo"></a>
+        </div>
+    </header>
+
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#">Button 1</a>
+        <a href="#" target="_blank">Button 2</a>
+        <a href="#" target="_blank">Button 3</a>
+        <a href="#" target="_blank">Button 4</a>
+    </nav>
+
+    <main class="discover-main">
+        <aside class="discover-aside">
+            <p><span></span><span class="visits"></span></p>
+
+            <div>
+                <h2>Event</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ex perspiciatis, ea ullam veritatis veniam esse quibusdam sed eos eius libero cupiditate beatae omnis quaerat officiis dolores aspernatur laborum quasi.</p>
+            </div>
+            <div>
+                <h2>Attraction</h2>
+                <picture>
+                    <img src="https://picsum.photos/400/400" alt="Placeholder Image" loading="lazy" width="150" height="150">
+                </picture>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ex perspiciatis, ea ullam veritatis veniam esse quibusdam sed eos eius libero cupiditate beatae omnis quaerat officiis dolores aspernatur laborum quasi.</p>
+            </div>
+            <div>
+                <h2>Data</h2>
+                <canvas id="myChart" style="width:100%;max-width:150px; height:100%;max-height:125px"></canvas>
+                <script src="scripts/graph.js"></script>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ex perspiciatis, ea ullam veritatis veniam esse quibusdam sed eos eius libero cupiditate beatae omnis quaerat officiis dolores aspernatur laborum quasi.</p>
+            </div>
+        </aside>
+        <section class="discover-pics">
+            <picture>
+                <img src="https://picsum.photos/400/450" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+    
+            <picture>
+                <img src="https://picsum.photos/400/500" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+    
+            <picture>
+                <img src="https://picsum.photos/400/550" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+    
+            <picture>
+                <img src="https://picsum.photos/400/600" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+    
+            <picture>
+                <img src="https://picsum.photos/400/650" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+    
+            <picture>
+                <img src="https://picsum.photos/400/700" alt="Placeholder Image" loading="lazy" width="400" height="400">
+            </picture>
+        </section>
+
+    </main>
+
+    <footer>
+        <img class="footer-logo" src="images/logo.svg" alt="Chamber of Commerce Logo">
+        <div class="footer-title">
+            <h3>Chamber of Battle Ground</h3>
+            <p>777 N Sweet Pork Ave, Battle Ground, WA</p>
+        </div>
+        <div class="copyright">
+            &copy; <span id= "current-year"></span> 
+            <h3>Steve Evans</h3>
+            <p>WDD 230 Project</p>
+            <span id = "last-modified"></span>
+        </div>
+    </footer>
+</body>
+</html>
