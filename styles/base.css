@@ -128,7 +128,7 @@ header img {
 }
 
 .card {
-    margin-bottom: 5px;
+    margin-top: 10px;
     text-align: center;
     border: 2px solid lightgray;
 }
@@ -145,6 +145,8 @@ header img {
 
 iframe {
     min-width: 100%;
+    margin: 10px 0;
+    border-radius: 25px;
 }
 
 #last-modified{
