@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
     <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
     <script src="scripts/hamburger-menu.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script type="module" src="scripts/directory.js" defer></script>
 
     <title>Chamber of Battle Ground</title>
 </head>
@@ -39,37 +38,14 @@
 
     <button id="menu"></button>
     <nav class="navigation">
-        <a href="#">Button 1</a>
-        <a href="#" target="_blank">Button 2</a>
-        <a href="#" target="_blank">Button 3</a>
-        <a href="#" target="_blank">Button 4</a>
+        <a href="discover.html">Discover</a>
+        <a href="join.html" target="_blank">Join US!</a>
+        <a href="#" target="_blank">Directory</a>
+        <a href="#" target="_blank"></a>
     </nav>
 
     <main>
-        <h1 class="join-us">Join Us!</h1>
-        <form method="get" action="thankyou.html" class="joinform">
-            <fieldset>
-                <label>First Name* <input type="text" name="fname" id="applicant-fname" required></label>
-                <label>Last Name* <input type="text" name="lname" id="applicant-lname" required></label>
-                <label>Title or Position <input type="text" name="title" id="applicant-title" pattern="[a-zA-Z\s\-]{7,50}" title="7 or more characters, spaces and hyphens may be used." required></label>
-                <label>Email* <input type="email" name="email" id="email" required></label>
-                <label>Mobile Phone # <input type="tel" name="phone" id="phone" required></label>
-                <label>Business/Organization's Name <input type="text" name="business-name" id="business-name" required></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Select A Membership</legend>
-                <label><input type="radio" name="membership" value="np">NP Membership (for Non-Profit Organizations and there is no fee)</label>
-                <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                <label><input type="radio" name="membership" value="silver">Silver Membership</label>    
-                <label><input type="radio" name="membership" value="gold">Gold Membership</label>    
-            </fieldset>
-
-            <label id="label-description">Business/Organization Description <textarea name="description" id="description"></textarea></label>
-            
-            <input type="hidden" name="form-date" id="form-date">
-            <input type="submit" value="Join" id="join-button">
-        </form>
+       
     </main>
 
     <footer>

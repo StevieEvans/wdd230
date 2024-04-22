@@ -54,6 +54,9 @@
         display: block;
     }
     .discover-pics img:hover {box-shadow: 0 0 50px #F05D23;}
-    
+
+    #join-button {
+        margin-left: .8rem;
+      }
 
 }

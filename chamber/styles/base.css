@@ -278,3 +278,11 @@ footer{
 .joinform input:required:valid {
   border: solid 1px #999;
 }
+
+#label-description {
+  padding: .8rem;
+}
+
+#join-button {
+  margin-left: .3rem;
+}

@@ -21,9 +21,9 @@ if (lastVisitDate === 0) {
 } else {
     let update = today - lastVisitDate;
 
-    let timeDifference = (update / msToDay)
+    let dayDifference = Math.floor((update / msToDay))
 
-    if (timeDifference < 1) {
+    if (dayDifference < 1) {
         visitsDisplay.textContent = "Back so soon! Awesome!"
     } else {
         let daysText = dayDifference === 1 ? 'day' : 'days'
