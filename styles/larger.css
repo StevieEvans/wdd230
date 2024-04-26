@@ -21,6 +21,10 @@
 		flex: 1 1 100%;
 	}
 
+    header img{
+        margin-left: 0;
+    }
+
     main {
         display:grid;
         grid-template-rows: auto auto;
