@@ -22,16 +22,15 @@ header {
 header img {
     margin: auto;
     max-width: 100%;
-    /* min-width: 85%; */
     height: auto;
 }
 
 #menu {
 	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
-	padding: 3px 7px 6px;
-	background-color: #eee;
-	color: #000;
+	border: 0;
+	padding: 3px 7px 3px;
+	background-color: rgb(0, 100, 0);
+	color: #eee;
  	position: absolute;
 	left: 1rem;
 	top: 2.5rem; 
@@ -39,10 +38,14 @@ header img {
 
 #menu::before {
 	content: "☰";
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #menu.open::before {
 	content: "✖";
+    color: #94A187;
+
 }
 
 nav {
