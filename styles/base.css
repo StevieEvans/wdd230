@@ -156,9 +156,9 @@ iframe {
     min-width: 100%;
     width: 390px; 
     height:450px; 
-    margin: 10px auto;
-    border-radius: 25px;
-    border: none;
+    margin: 10px auto; 
+    border-radius: 25px; 
+    border: none; 
 }
 
 #last-modified{
