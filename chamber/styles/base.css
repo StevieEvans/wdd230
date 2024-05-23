@@ -2,7 +2,7 @@
 Colors
     Primary: #007958
     Secondary: #F05D23
-    Background: #fffffc
+    Background: #007A5A
     Typeface: #261C15
     coolors.co link https://coolors.co/008c67-f7f7f2-261c15-f05d23-f79256
 */
@@ -129,8 +129,7 @@ header h1 {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: #008C67;
-  ;
+	background-color: #007A5A;
 	color: #fff;
 }
 
