@@ -153,8 +153,8 @@ header h1 {
 .hero img {
     width: 100%;
     max-height:500px;
-    object-fit:none;
-    position: relative;
+    object-fit:cover;
+    /* position: relative; */
 }
 
 .card {

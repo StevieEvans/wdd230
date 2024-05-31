@@ -1,6 +1,6 @@
 body {
     margin: 20px auto;
-    max-width: 1100px;
+    max-width: 960px;
     /* min-width: fit-content; */
     border: 3px solid black;
     padding: 5px;
@@ -105,9 +105,6 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* nav ul {
-padding: 0;
-} */
 
 ul{
     font-size: 1.2em;
@@ -130,6 +127,33 @@ header img {
     grid-column: 2/3;
     border-radius: 1em;
     box-shadow: 5px 5px 15px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-label{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: radial-gradient(lightblue, rgb(80, 127, 216));
+    box-shadow: 0 0 5rem 0.5rem rgb(80, 127, 216);
+    border-radius: 15px;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+.hero-label p {
+    font-weight: 600;
+    color:black;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
 
 .card li{
