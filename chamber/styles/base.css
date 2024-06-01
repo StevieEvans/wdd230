@@ -15,10 +15,12 @@ Typography
 */
 
 /* The switch - the box around the slider */
-.switch p{
+.label-text{
     position: absolute;
-    top: 2px;
+    top: 8px;
     right: 4rem;
+    color: black;
+    font-family: 'Lato', sans-serif;
   }
 .switch {
     position: absolute;
@@ -150,9 +152,26 @@ header h1 {
 	display: block;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: radial-gradient(#3afac7, #02976f);
+  box-shadow: 0 0 1rem 0 #02976f;
+  border-radius: 15px;
+  padding: 0.5rem;
+  opacity: 0.8;
+  font-size: larger;
+  font-weight: 700;
+}
+
 .hero img {
     width: 100%;
-    max-height:500px;
+    max-height:450px;
     object-fit:cover;
     /* position: relative; */
 }

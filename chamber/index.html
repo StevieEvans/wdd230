@@ -21,18 +21,19 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/screen-size.js" defer></script>    
 
-    <title>Chamber of Battle Ground</title>
+    <title>Battle Ground Chamber of Commerce</title>
 </head>
 <body>
     <header>
         <label class="switch">
-            <p>Darkmode</p>
+            <span class="label-text">Darkmode</span>
             <input id="mode" type="checkbox">
             <span class="slider round"></span>
         </label>
         <img class="logo" src="images/logo.svg" alt="Chamber of Commerce Logo">
-        <h1>Battle Ground Chamber</h1>
+        <h1>Battle Ground Chamber of Commerce</h1>
         <div class="socials">
         <a href="https://www.instagram.com/" target="_blank"><img class="socials" src="images/instagram-logo.svg" alt="Instagram Logo"></a>
         <a href="https://https://www.facebook.com//" target="_blank"><img class="socials" src="images/facebook-logo.svg" alt="Instagram Logo"></a>
@@ -52,15 +53,15 @@
         <div class="hero">
             <picture>
                 <!-- https://www.cityofbg.org/ImageRepository/Document?documentID=4955 -->
-                <img  src="images/battleground-hero.webp" alt="City of Battle Ground"
-                srcset="
-                images/battleground-hero.webp 400w,
-                images/battleground-hero.webp 800w,
-                images/battleground-hero.webp 1600w,
-                images/battleground-hero.webp 2600w"
-                />
+                <!-- <img  src="images/battleground-hero.webp" alt="City of Battle Ground"> -->
+                <source media="(max-width: 500px)" srcset="images/wdd230-org-small.webp">                
+                <source media="(max-width: 1000px)" srcset="images/wdd230-org-medium.webp">
+                <img  src="images/wdd230-org-large.webp" alt="" width="1280" height="853">
             </picture>
-            <a href="join.html" target="_blank"><h1>Join Us!</h1></a>
+            <div class="hero-label">
+                <span id="screen-size"></span>
+              </div>
+            <a href="join.html" target="_blank"><h2>Join Us!</h2></a>
         </div>
 
         <section class="card">
