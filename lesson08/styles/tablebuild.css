@@ -1,0 +1,42 @@
+:root {
+    --back: #fac8cd;
+    --back2: #D7BCC8;
+    --zebra: #98B6B1;
+    --foredark: #495D63;
+    --border: lightslategray;
+}
+
+table {
+    margin: 30px auto;
+    border: 0.5px solid lightslategray;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px 10px;
+    border: thin solid var(--border);
+} 
+
+th {
+    color: white;
+}
+
+thead tr :first-child{
+    background-color: black;
+    border: none;
+    padding: 10px;
+}
+
+thead th[scope="col"]:not([colspan="1"]) {
+    background-color: var(--foredark);
+} 
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
