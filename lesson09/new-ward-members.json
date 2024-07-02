@@ -1,0 +1,30 @@
+{
+    "wardinfo": {
+        "familyName": "Boberts",
+        "moveInDate": "2024-07-11",
+        "numberOfPeople": 4,
+        "visitedByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "Avery",
+                "gender": "Male",
+                "birthdate": "1995-07-12"
+            },
+            {
+                "name": "Ruth",
+                "gender": "Female",
+                "birthdate": "1996-08-25"
+            },
+            {
+                "name": "Jackson",
+                "gender": "Male",
+                "birthdate": "2021-03-21"
+            },
+            {
+                "name": "Jessica",
+                "gender": "Female",
+                "birthdate": "2023-11-05"
+            }
+        ]
+    }
+}
