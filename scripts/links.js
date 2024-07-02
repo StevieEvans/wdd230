@@ -1,6 +1,6 @@
 const baseURL = "stevieevans.github.io/wdd230/";
-const linksURL = 'data/links.json'
-// const linksURL = "stevieevans.github.io/wdd230/data/links.json"
+// const linksURL = 'data/links.json'
+const linksURL = "stevieevans.github.io/wdd230/data/links.json"
 const linksCard = document.querySelector("#links")
 
 const getLinks = async () => {
@@ -21,6 +21,7 @@ const displayLinks = (lessons) => {
             let anchor = document.createElement('a')
 
             anchor.href = link.url
+            anchor.target = "_blank"
             anchor.textContent = link.title
 
             if(index < lesson.links.length -1) {
