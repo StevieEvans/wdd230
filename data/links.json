@@ -14,143 +14,107 @@
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "02",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson02/design.html",
+                    "title": "Design Principles Activity"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Query"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "03",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "images/combinator-exercise.PNG",
+                    "title": "CSS Combinators Exercise"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/estephem/pen/poYrvqB",
+                    "title": "Pseudo-Element JS Pen"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/estephem/pen/MWxvXpY",
+                    "title": "Hamburger JS Pen"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "04",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/estephem/pen/XWGEqJK?editors=1100",
+                    "title": "CSS Pseudo-Classes Pen"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "05",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson05/bom.html",
+                    "title": "Fav Book of Mormon Chapters"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "06",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP"
                 },
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "07",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading Example"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "08",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Example"
                 },
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson08/Form-start/index.html",
+                    "title": "Form Example"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "09",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "Ward Members JSON"
                 },
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "lesson09/prophets.html",
+                    "title": "Latter-Day Prophets"
                 }
             ]        
         },
         {
-            "lesson": "",
+            "lesson": "10",
             "links": [
                 {
                     "url": "",
