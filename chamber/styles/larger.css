@@ -1,0 +1,19 @@
+@media screen and (min-width: 1050px){
+
+    .grid #gold-members{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+    .grid #gold-members h2 ,.grid #silver-members h2, .grid #bronze-members h2 {
+        grid-column: 1/4;
+    }
+
+
+    .grid #silver-members, #bronze-members {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+

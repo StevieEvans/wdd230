@@ -304,3 +304,23 @@ footer{
 #join-button {
   margin-left: .3rem;
 }
+
+.list section img {
+  display: none;
+}
+
+#company-name {
+  font-weight: bold;
+}
+
+article {
+  text-align: center;
+}
+
+section {
+  box-shadow: 5px 5px 6px 2px lightgray;
+}
+
+article img {
+  object-fit: cover;
+}

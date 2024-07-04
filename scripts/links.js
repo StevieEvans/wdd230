@@ -33,31 +33,6 @@ const displayLinks = (lessons) => {
 
         linkElement.appendChild(content)
         linksCard.appendChild(linkElement)
-
-// const displayLinks = (lessons) => {
-//     lessons.forEach(lesson => {
-//         let links = lesson.links
-//         let card = document.createElement('section');
-//         let linkElement = document.createElement('li')
-//         let anchor = document.createElement('a')
-
-//         links.forEach(link => {
-//             linkElement.textContent = `${lesson.lesson}: ${anchor} ${link.title} |`
-            
-//             anchor.setAttribute('href', link.url)
-//             anchor.setAttribute('target', '_blank')
-            
-//             card.appendChild(linkElement)
-//             card.appendChild(anchor)
-//             linksCard.appendChild(card)
-//             // console.log(linkElement)   
-//         });
-
-        // linkElement.textContent = `${lesson.lesson} ${anchor} ${links.title} |`
-        // console.log(lesson)
-        // console.log(linkElement)
-        // console.log(links)
-        // console.log(links)
     });
 }
 

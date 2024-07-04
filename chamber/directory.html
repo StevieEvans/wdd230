@@ -23,7 +23,7 @@
 <body>
     <header>
         <label class="switch">
-            <p>Darkmode</p>
+            <span class="label-text">Darkmode</span>
             <input id="mode" type="checkbox">
             <span class="slider round"></span>
         </label>
@@ -38,14 +38,29 @@
 
     <button id="menu"></button>
     <nav class="navigation">
+        <a href="index.html">Home</a>
         <a href="discover.html">Discover</a>
-        <a href="join.html" target="_blank">Join US!</a>
-        <a href="#" target="_blank">Directory</a>
-        <a href="#" target="_blank"></a>
+        <a href="join.html">Join US!</a>
+        <a href="directory.html">Directory</a>
     </nav>
 
     <main>
-       
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <hr>
+        <article class="grid">
+            <div id="gold-members">
+                <h2>Gold Members</h2>
+            </div>
+            <div id="silver-members">
+                <h2>Silver Members</h2>
+            </div>
+            <div id="bronze-members">
+                <h2>Bronze Members</h2>
+            </div>
+        </article>
     </main>
 
     <footer>
