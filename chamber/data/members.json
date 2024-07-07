@@ -14,7 +14,7 @@
         "address" : "217 W Main St, Battle Ground, WA 98604",
         "phonenumber" : "(360)687-7308",
         "weburl" : "https://locations.burgerville.com/burgerville-be8dbdf551a0",
-        "img" : "images/burgerville.png",
+        "img" : "images/burgerville.webp",
         "membershiplevel" : "Gold",
         "otherinfo" : "" 
       }, 
@@ -32,7 +32,7 @@
         "address" : "Farm Store, 815 W Main St, Battle Ground, WA 98604",
         "phonenumber" : "(360)687-3113",
         "weburl" : "https://www.farmstore.com/",
-        "img" : "images/wilco.png",
+        "img" : "images/wilco.webp",
         "membershiplevel" : "Silver",
         "otherinfo" : "" 
       }, 
@@ -50,7 +50,7 @@
         "address" : "401 NW 12th Ave Suite A, Battle Ground, WA 98604",
         "phonenumber" : "(360)891-4000",
         "weburl" : "https://www.columbiacu.org/locations/battle-ground-branch-in-fred-meyer/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-        "img" : "images/columbia-credit-union.png",
+        "img" : "images/columbia-credit-union.webp",
         "membershiplevel" : "Bronze",
         "otherinfo" : "" 
       }, 
@@ -59,7 +59,7 @@
         "address" : "401 NW 12th Ave, Battle Ground, WA 98604",
         "phonenumber" : "(360)666-5100",
         "weburl" : "https://www.fredmeyer.com/stores/grocery/wa/battle-ground/battle-ground/701/00614?cid=loc_70100614_gmb",
-        "img" : "images/fred-meyer.png",
+        "img" : "images/fred-meyer.webp",
         "membershiplevel" : "Bronze",
         "otherinfo" : "" 
       }

@@ -1,16 +1,16 @@
-updateHeroLabel = () => {
-    const spanTag = document.getElementById('screen-size');
-    const viewportWidth = window.innerWidth;
+// updateHeroLabel = () => {
+//     const spanTag = document.getElementById('screen-size');
+//     const viewportWidth = window.innerWidth;
     
-    if (viewportWidth <= 500){
-        spanTag.textContent = 'Small';
-    } else if (viewportWidth > 500  && viewportWidth < 1280){
-        spanTag.textContent = 'Medium';
-    } else {
-        spanTag.textContent = 'Large';
-    }
-}
+//     if (viewportWidth <= 500){
+//         spanTag.textContent = 'Small';
+//     } else if (viewportWidth > 500  && viewportWidth < 1280){
+//         spanTag.textContent = 'Medium';
+//     } else {
+//         spanTag.textContent = 'Large';
+//     }
+// }
 
-updateHeroLabel();
+// updateHeroLabel();
 
-window.addEventListener('resize', updateHeroLabel);
+// window.addEventListener('resize', updateHeroLabel);

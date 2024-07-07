@@ -169,6 +169,10 @@ header h1 {
   font-weight: 700;
 }
 
+.hero-label h2 {
+  margin:0;
+}
+
 .hero img {
     width: 100%;
     max-height:450px;
@@ -319,8 +323,11 @@ article {
 
 section {
   box-shadow: 5px 5px 6px 2px lightgray;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 article img {
   object-fit: cover;
+  position: relative;
 }
