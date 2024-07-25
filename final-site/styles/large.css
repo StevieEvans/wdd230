@@ -1,21 +1,10 @@
-/* @media screen and (min-width: 960px) {
-    .navbar_container {
-        display: flex;
-        justify-content: space-between;
-        height: 80px;
-        z-index: 1;
-        width: 100%;
-        max-width: 1300px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    .navbar_menu {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        text-align: center;
+@media screen and (min-width: 1025px){
+    .services_card {
+        width: 400px;
     }
 
-} */
+    .rental_section section {
+        margin-bottom: 2rem;
+        max-width: 400px;
+    }
+}

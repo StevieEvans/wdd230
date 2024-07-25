@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #332f2f;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,7 +88,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #d93320;
     color: #fff;
 }
 
@@ -97,11 +98,11 @@
 }
 
 .navbar_links:hover {
-    color: #f77062;
+    color: #d93320;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 750px){
     .navbar_container {
         display: flex;
         justify-content: space-between;
@@ -156,7 +157,7 @@
         text-align: center;
         padding: 2rem;
         width: 100%;
-        display: table;
+        /* display: table; */
     }
 
     #mobile_menu {
@@ -174,8 +175,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        height: 80px;
+        /* width: 80%; */
+        height: 70px;
         margin: 0;
     }
 
@@ -196,29 +197,18 @@
 }
 
 /* Hero Section */
-.main {
+main {
     background-color: #141414;
-}
-
-.main_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 90vh;
-    background-color: #141414;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
 }
 
 .main_content h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -230,6 +220,7 @@
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -238,19 +229,21 @@
 
 .main_content p {
     margin-top: 1rem;
-    font-size: 2rem;
     font-weight: 700;
+    font-size: 2rem;
     color: #fff;
 }
 
 .main_btn {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
+    /* padding: 14px 32px; */
+    /* margin-top: 2rem; */
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    padding: 14px 32px;
+    background-image: linear-gradient(to top, #d93320 0%, #fe5196 100%);
     border: none;
     border-radius: 4px;
     color: #fff;
-    margin-top: 2rem;
     cursor:pointer;
     position: relative;
     transition: all 0.35s;
@@ -289,65 +282,25 @@
 }
 
 #main_img {
-    height: 100%;
+    max-width: 350px;
+    border-radius: 4px;
+    /* height: 100%; */
+    width: auto;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
     width: 100%;
+    margin: 0 auto;
+    height: 90vh;
 }
 
-/* Mobile Responsive */
-@media screen and (max-width: 768px) {
-    .main_container {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
-    }
-
-    .main_content {
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .main_content h1 {
-        font-size: 2.5rem;
-        /* margin-top: 2rem; */
-        margin-top: 1rem;
-        margin-bottom: 0;
-    }
-
-    .main_content h2 {
-        font-size: 3rem;
-    }
-
-    .main_content p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .main_content h1 {
-        font-size: 2rem;
-        /* margin-top: 2rem; */
-        margin-top: 3rem;
-        margin-bottom: 0;
-    }
-
-    .main_content h2 {
-        font-size: 2rem;
-    }
-
-    .main_content p {
-        font-size: 2rem;
-        margin-top: 1.5rem;
-    }
-
-    .main_btn {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
+.main_content {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 /* Services Section CSS */
@@ -356,15 +309,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
 }
 
 .services h1 {
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     background-size: 100%;
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -380,12 +335,12 @@
 .services_card {
     margin: 1rem;
     height: 525px;
-    width: 400px;
+    width: 350px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, 
         rgba(0, 0, 0, 0) 0%, 
         rgba(17, 17, 17, 0.6) 100%), 
-        url('/final-site/images/beach_jeep_small.jpg');
+        url('/final-site/images/scooter.webp');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -395,7 +350,7 @@
     background-image: linear-gradient(to bottom, 
         rgba(0, 0, 0, 0) 0%, 
         rgba(17, 17, 17, 0.6) 100%), 
-        url('/final-site/images/beach_jeep_small.jpg');
+        url('/final-site/images/beach_jeep_small.webp');
 }
 
 .services h2 {
@@ -412,11 +367,11 @@
 
 .services_card button {
     color: #fff;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #d93320;
     position: absolute;
     top: 440px;
     left: 30px;
@@ -430,35 +385,10 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px) {
-    .services {
-        height: 1600px;
-    }
-
-    .services h1 {
-        font-size: 2rem;
-        margin-top: 12rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .services {
-        height: 1400px;
-    }
-
-    .services h1 {
-        font-size: 1.2rem;
-    }
-
-    .services_card {
-        width: 300px;
-    }
-}
-
 /* Footer CSS */
 footer {
-    background-color: #141414;
-    padding: 5rem 0;
+    background-color: #332f2f;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,6 +402,7 @@ footer {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .footer_links {
@@ -483,7 +414,7 @@ footer {
 
 .footer_link_wrapper {
     display: flex;
-
+    flex-direction: column;
 }
 
 .footer_items {
@@ -515,6 +446,12 @@ footer {
     transition: 0.3s ease-out;
 }
 
+.website_rights {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+
 /* Social Icons */
 .social_icons_link {
     color: #fff;
@@ -530,10 +467,11 @@ footer {
 .social_media_wrap {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 20px auto;
 }
 
 .social_icons {
@@ -541,6 +479,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 240px;
+}
+
+a:visited i {
+    color: white;
 }
 
 .social_logo {
@@ -555,37 +497,275 @@ footer {
     margin-bottom: 16px;
 }
 
-.website_rights {
+form {
+    margin: auto;
+    max-width: 30rem;
+    display: grid;
+    color: #fff;
+    /* text-align: center; */
+}
+
+label {
+    margin: 5px 0;
+}
+
+#join_button {
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+}
+
+#accommodations_label {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(184, 31, 255) 0%, #21d4fd 100%);    
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+#accommodations {
+    padding-bottom: 2rem;
+}
+
+.rentals_main h1 {
+    font-size: 2.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.rental_section {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* margin-left: 2rem; */
+}
+
+.rental_section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rental_section h2 {
+    /* padding: 2rem 0 0 1rem; */
+    font-size: 2.2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(184, 31, 255) 0%, #21d4fd 100%);    
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.rentals_main {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.reservation_prices::before {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #e98cae 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    content: "Reservation Prices:";
+    /* margin-right: 1rem; */
+}
+
+.walk_in_prices::before {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #e98cae 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    content: "Walk-In Prices:";
+    /* margin-right: 1rem; */
+}
+
+
+.reservation_prices {
+    margin-top: 1rem;
+}
+
+.reservation_prices:first-child::after {
+    content: '$';
+}
+
+.walk_in_prices {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#rental_name + p::before {
+    content: "Max Persons:";
+    margin-right: 1rem;
+}
+
+#rental_name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* #Honda_Metropolitan_\(49cc\) {
+    box-shadow: 0px 0px 7px 2px lightgray;
+} */
+
+section {
+    margin-top: 1rem;
+    box-shadow: 0px 0px 7px 2px lightgray;
+}
+
+.rental_section {
+    max-width: 480px;
+}
+
+.thanks_main h1 {
+    text-align: center;
+    margin: 0;
+    padding: 5rem auto;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0846af 0%, #dd542aa8 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.thanks_main {
+    padding: 20rem 0;
+}
+
+.joinform {
+ margin-top: 2rem;
+}
+
+.joinform fieldset {
+    display: grid;
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+
+.joinform fieldset input {
+    border-radius: 6px;
+}
+ 
+.joinform input:required {
+    border: solid 2px red;
+    border-radius: 6px;
+
+}
+
+#join_button {
+    font-size: 2rem;
+    padding: 12px 36px;
+    margin: 2.5rem 0;
+    /* padding: 14px 32px; */
+    /* margin-top: 2rem; */
+    background-image: linear-gradient(to top, #d93320 0%, #fe5196 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor:pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+#join_button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.joinform legend {
+    font-size: 1.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(184, 31, 255) 0%, #21d4fd 100%);    
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+.joinform textarea 
+{
+    background-color: #eee;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+}
+
+.reservations_main {
+    display: grid;
+    justify-content: center;
     color: #fff;
 }
 
-@media screen and (max-width: 820px) {
-    .footer_links {
-        padding-top: 2rem;
-    }
-
-    #footer_logo {
-        margin-bottom: 2rem;
-    }
-
-    .website_rights {
-        margin-bottom: 2rem;
-    }
-
-    .footer_link_wrapper {
-        flex-direction: column;
-    }
-
-    .social_media_wrap {
-        flex-direction: column;
-    }
-
+.reservations_main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 5rem;
+    margin-bottom: 0;
 }
 
-@media screen and (max-width: 480px) {
-    .footer_items {
-        margin: 0;
-        padding: 2px;
-        width: 100%;
-    }
+.agreement_info {
+    margin-top: 5rem;
+}
+
+li {
+    /* list-style-type: circle; */
+    margin-left: 1.25rem;
+}
+
+iframe {
+    max-width: 100%;
+    /* width: 390px; 
+    height:450px;  */
+    margin: 10px auto; 
+    border-radius: 25px; 
+    border: none; 
+}
+
+.footer_items {
+    margin-bottom: 0;
 }

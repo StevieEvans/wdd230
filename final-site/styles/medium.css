@@ -1,0 +1,122 @@
+@media screen and (min-width: 782px){
+    
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto;
+        height: 80vh;
+        background-color: #141414;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+    }
+
+    .main_content h1 {
+        font-size: 3rem;
+
+    }
+
+    .main_content h2 {
+        font-size: 2rem;
+    }
+    
+    .main_content p {
+        font-size: 2rem;
+    }
+
+    #main_img {
+        max-width: 400px;
+        border-radius: 4px;
+        /* height: 100%; */
+        width: auto;
+    }
+
+    .footer_link_wrapper {
+        flex-direction: row;
+    }
+
+    .social_media_wrap {
+        flex-direction: row;
+    }
+
+    .services {
+        height: fit-content;
+        padding-bottom: 5rem;
+    }
+
+    .services h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .services_card {
+        width: 350px;
+    }
+
+    #footer_logo {
+        margin-bottom: 0;
+    }
+
+    .website_rights {
+        margin-bottom: 0;
+    }
+
+    .rentals_main {
+        display: grid;
+    }
+
+    .rental_section {
+        display: grid;
+        max-width: 100%;
+        /* grid-template-columns: 1fr 1fr; */
+    }
+
+    .rental_section section {
+        margin-bottom: 2rem;
+        max-width: 350px;
+
+    }
+
+    .rental_section h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .scooters {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 5rem ;
+        margin: 2rem;
+    }
+
+    .scooters h2 {
+        grid-column: span 2;
+    }
+
+    .atvs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 15px;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .atvs h2 {
+        grid-column: span 2;
+    }
+
+    .jeeps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 5rem;
+        margin: 2rem;
+    }
+
+    .jeeps h2 {
+        grid-column: span 2;
+    }
+    
+
+
+}

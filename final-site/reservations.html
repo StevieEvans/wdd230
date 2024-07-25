@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots</title>
+    <Link href="styles/base.css" rel="stylesheet"></Link>
+    <Link href="styles/medium.css" rel="stylesheet"></Link>
+    <Link href="styles/large.css" rel="stylesheet"></Link>
+    <Link href="styles/normalize.css" rel="stylesheet"></Link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3a31131719.js" crossorigin="anonymous"></script>
+    <script src="scripts/app.js" defer></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><i class="fa-solid fa-motorcycle"></i></i> Scoots</a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <!-- <span class="bar"></span> -->
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="rentals.html" class="navbar_links">Rentals</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="contact.html" class="navbar_links">Contact</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/" class="btn">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="reservations_main">
+        <h1>Reserve Your Ride</h1>
+        <div class="agreement_info">
+            <ul>
+                <li>$50 security deposit is required to confirm reservations.</li>
+            </ul>
+            <ul>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+            </ul>
+            <ul>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+            </ul>
+            <ul>
+                <li>Fuel charge is not included.</li>
+            </ul>
+            <ul>
+                <li>Unlimited mileage.</li>
+            </ul>
+            <ul>
+                <li>Liability insurance is included.</li>
+            </ul>
+            <ul>
+                <li>Damage insurance is available for purchase.</li>
+            </ul>
+            <ul>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+            </ul>
+            <ul>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+            </ul>
+            <ul>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+
+        <form method="get" action="thankyou.html" class="joinform">
+            <fieldset>
+                <legend>Select A Rental</legend>
+                <label for="scooters"> Scooters</label>
+                <select name="scooters" id="scooters">
+                    <option value="">Choose an option</option>
+                    <option value="honda_metropolitan">Honda Metropolitan (49cc)</option >
+                    <option value="honda_dio">Honda Dio (110cc)</option>
+                    <option value="honda_pcx150">Honda PCX150 (149cc)</option>
+                </select>
+
+                <label for="atvs"> ATVs's</label>
+                <select name="atvs" id="atvs">
+                    <option value="">Choose an option</option>
+                    <option value="honda_pioneer_1000">Honda Pioneer 1000</option>
+                </select>
+
+                <label for="jeeps"> Jeeps</label>
+                <select name="jeeps" id="jeeps">
+                    <option value="">Choose an option</option>
+                    <option value="jeep_wrangler_4door">Jeep Wrangler - 4 door manual with A/C</option>
+                    <option value="jeep_wrangler_2door">Jeep Wrangler - 2 door - open air - manual</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="applicant_fname">First Name*</label>
+                <input type="text" name="fname" id="applicant-fname" required>
+                <label for="applicant_lname">Last Name*</label>
+                <input type="text" name="lname" id="applicant-lname" required>
+                <label for="applicant_country">Country*</label>
+                <input type="text" name="country" id="applicant-country" pattern="[a-zA-Z\s\-]{3,50}" title="7 or more characters, spaces and hyphens may be used." required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Mobile Phone #</label>
+                <input type="tel" name="phone" id="phone" required>
+                <label for="cruise_name">Cruise line (if applicable)</label>
+                <input type="text" name="cruise_name" id="cruise_name">
+            </fieldset>
+
+            <!-- <fieldset>
+                <legend>Select A Membership</legend>
+                <label><input type="radio" name="membership" value="np">NP Membership (for Non-Profit Organizations and there is no fee)</label>
+                <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver">Silver Membership</label>    
+                <label><input type="radio" name="membership" value="gold">Gold Membership</label>    
+            </fieldset> -->
+
+            <label id="accommodations_label" for="accommodations">Special Accommodations/Comments</label>
+            <textarea name="accommodations" id="accommodations" placeholder=" Needs such as location or drop-off request..."></textarea>
+            
+            <!-- <input type="hidden" name="form-date" id="form-date"> -->
+            <input type="submit" value="Reserve" id="join_button">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer_links">
+            <div class="footer_link_wrapper">
+                <div class="footer_items">
+                    <h2>Contact Us</h2>
+                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">Destinations</a>
+                </div>
+
+                <div class="footer_items">
+                    <h2>Social Media</h2>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    <a href="https://x.com/" target="_blank">Twitter/X</a>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media_wrap">
+                <div class="footer_logo">
+                    <a href="/" id="footer_logo"><i class="fa-solid fa-motorcycle"></i>Scoots</a>
+                </div>
+                <p class="website_rights">&copyScoots 2024. All rights reserved</p>
+                <div class="social_icons">
+                    <a href="https://www.facebook.com/" class="social_icon_link" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="social_icon_link" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://x.com/" class="social_icon_link" target="_blank">
+                        <i class="fa-brands fa-x fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="social_icon_link" target="_blank">
+                        <i class="fa-brands fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
