@@ -25,7 +25,6 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-                <!-- <span class="bar"></span> -->
             </div>
             <ul class="navbar_menu">
                 <li class="navbar_item">
@@ -38,24 +37,40 @@
                     <a href="reservations.html" class="navbar_links">Reservations</a>
                 </li>
                 <li class="navbar_btn">
-                    <a href="/" class="btn">Sign Up</a>
+                    <a href="reservations.html" class="btn">Reserve Now</a>
                 </li>
             </ul>
         </div>
     </nav>
-  <!-- Hero Section       -->
-    <main>
-        <div class="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10561.80350252969!2d-87.08257795150045!3d20.622275454989026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e430a3b3c73db%3A0xf1147cfcfa9097b6!2sFerry%20Cozumel!5e0!3m2!1sen!2sus!4v1721793718099!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12572.25420032492!2d-86.98040953046193!3d20.475313636794834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1721793778841!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>        
+
+    <main class="contact_main">
+        <h1>Our Locations</h1>
+        <p>We have two locations. One is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel and the other is near the Terminal Puerta Maya further south along the coast</p>
+
+        <h2>Where To Find Us</h2>
+        <div class="maps">
+            <iframe id="ferry" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10561.80350252969!2d-87.08257795150045!3d20.622275454989026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e430a3b3c73db%3A0xf1147cfcfa9097b6!2sFerry%20Cozumel!5e0!3m2!1sen!2sus!4v1721793718099!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <iframe id="puerta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12572.25420032492!2d-86.98040953046193!3d20.475313636794834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1721793778841!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>      
+        
+        <h2>Get In Contact With Us</h2>
+        <form method="get" action="thankyou.html" class="joinform">
+            <fieldset>
+                <label for="contact_name">Name*</label>
+                <input type="text" name="contact_name" id="contact_name" required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required>
+            </fieldset>
+            <label id="accommodations_label" for="accommodations"></label>
+            <textarea name="comments" id="commments" placeholder="Comments..."></textarea>
+            
+            <input type="submit" value="Send" id="join_button">
+        </form>
     </main>
 
-    <!-- Services Section -->
 
-    <footer>
+    <footer class="contact_footer">
         <div class="footer_links">
             <div class="footer_link_wrapper">
                 <div class="footer_items">

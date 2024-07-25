@@ -30,7 +30,6 @@
     #main_img {
         max-width: 400px;
         border-radius: 4px;
-        /* height: 100%; */
         width: auto;
     }
 
@@ -117,6 +116,9 @@
         grid-column: span 2;
     }
     
-
+    .maps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
